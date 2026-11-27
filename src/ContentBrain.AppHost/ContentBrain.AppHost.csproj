@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<TargetFramework>net10.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="Azure.Identity" Version="1.21.0" />
+  </ItemGroup>
+  <ItemGroup>
+	<ProjectReference Include="..\ContentBrain.Api\ContentBrain.Api.csproj" />
+	<ProjectReference Include="..\ContentBrain.Web\ContentBrain.Web.csproj" />
+	<ProjectReference Include="..\ContentBrain.ServiceDefaults\ContentBrain.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

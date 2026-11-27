@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ContentBrain.Api/ContentBrain.Api.csproj" />
+    <Project Path="src/ContentBrain.AppHost/ContentBrain.AppHost.csproj" />
+    <Project Path="src/ContentBrain.Application/ContentBrain.Application.csproj" />
+    <Project Path="src/ContentBrain.Contracts/ContentBrain.Contracts.csproj" />
+    <Project Path="src/ContentBrain.Domain/ContentBrain.Domain.csproj" />
+    <Project Path="src/ContentBrain.Infrastructure/ContentBrain.Infrastructure.csproj" />
+    <Project Path="src/ContentBrain.ServiceDefaults/ContentBrain.ServiceDefaults.csproj" />
+    <Project Path="src/ContentBrain.Web/ContentBrain.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ContentBrain.ApiTests/ContentBrain.ApiTests.csproj" />
+    <Project Path="tests/ContentBrain.IntegrationTests/ContentBrain.IntegrationTests.csproj" />
+    <Project Path="tests/ContentBrain.UnitTests/ContentBrain.UnitTests.csproj" />
+  </Folder>
+</Solution>
